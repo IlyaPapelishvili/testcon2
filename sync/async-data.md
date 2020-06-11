@@ -16,7 +16,7 @@ description: You may want to fetch data and render it on the server-side. Nuxt.j
   </a>
 </div>
 
-## The asyncData method
+## The asyncData method- Guitar
 
 Sometimes you just want to fetch data and pre-render it on the server without using a store. 
 `asyncData` is called every time before loading the **page** component.
@@ -34,7 +34,8 @@ You do **NOT** have access of the component instance through `this` inside `asyn
 Nuxt.js offers you different ways to use `asyncData`. Choose the one you're the most familiar with:
 
 1. Returning a `Promise`. Nuxt.js will wait for the promise to be resolved before rendering the component.
-2. Using the [async/await](https://javascript.info/async-await) ([learn more about it](https://zeit.co/blog/async-and-await))
+2. HAHAH/ Hello World
+3. Using the [async/await](https://javascript.info/async-await) ([learn more about it](https://zeit.co/blog/async-and-await))
 
 <div class="Alert Alert--grey">
 
@@ -46,6 +47,7 @@ If you are using `axios` directly from `node_modules` and used the `axios.interc
 
 ```js
 import axios from 'axios'
+Halo
 const myaxios = axios.create({
   // ...
 })
